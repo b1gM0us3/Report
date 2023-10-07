@@ -9,11 +9,14 @@ Stored XSS, also known as Type-1 or Persistent XSS attacks, typically rely on un
 Go to : http://localhost/pagekit/admin/site/page/edit?id=2
 ![image](https://github.com/b1gM0us3/Report/blob/main/Screenshot%202023-10-07%20163121.png)
 
-On the url, enter payload after url: cuzh4"><script>alert('XSS')</script>rvhmf
+On Menu Title, enter payload and Save: <script>alert('XSS')</script>
+![image](https://github.com/b1gM0us3/Report/blob/main/Screenshot%202023-10-07%20163446.png).
 
-Payload: http://localhost/php-inventory-management-system/index.php/cuzh4"><script>alert('XSS')</script>rvhmf
+Go to: http://localhost/pagekit/admin/site/page
+![image](https://github.com/b1gM0us3/Report/blob/main/Screenshot%202023-10-07%20163609.png).
 
-
+Access /blog.
+![image](https://github.com/b1gM0us3/Report/blob/main/Screenshot%202023-10-07%20163517.png).
 
 # Impact:
 The impact of store cross-site scripting (XSS) can be significant and pose various risks to both web applications and users
