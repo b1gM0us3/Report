@@ -7,7 +7,7 @@ Stored XSS, also known as Type-1 or Persistent XSS attacks, typically rely on un
 # POC
 ## Steps To Reproduce:
 Go to : http://localhost/pagekit/admin/site/page/edit?id=2
-![image]([https://github.com/](https://github.com/b1gM0us3/Report/blob/main/Screenshot%202023-10-07%20163121.png))
+![image](https://github.com/b1gM0us3/Report/blob/main/Screenshot%202023-10-07%20163121.png)
 
 On the url, enter payload after url: cuzh4"><script>alert('XSS')</script>rvhmf
 
