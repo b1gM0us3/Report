@@ -1,8 +1,8 @@
 # Summary:
-Reflected cross-site scripting (or XSS) arises when an application receives data in an HTTP request and includes that data within the immediate response in an unsafe way.
+Stored cross-site scripting (also known as second-order or persistent XSS) arises when an application receives data from an untrusted source and includes that data within its later HTTP responses in an unsafe way.
 
 # Description:
-Reflected XSS attacks, also known as non-persistent attacks, occur when a malicious script is reflected off of a web application to the victim's browser.
+Stored XSS, also known as Type-1 or Persistent XSS attacks, typically rely on unsanitized user input points for scripts permanently stored on the target servers.
 
 # POC
 ## Steps To Reproduce:
